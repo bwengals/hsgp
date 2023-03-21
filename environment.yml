@@ -1,0 +1,42 @@
+name: hsgp-env
+channels:
+  - conda-forge
+dependencies:
+  - python=3.10
+  - arviz
+  - bambi
+  - black
+  - geopandas 
+  - ipykernel
+  - ipywidgets
+  - jax
+  - jaxlib
+  - jupyter
+  - libblas=*=*mkl
+  - mkl-service
+  - networkx
+  - nbconvert
+  - numba
+  - numpy
+  - numpyro
+  - nutpie
+  - pandas
+  - pandera
+  - pip
+  - pip:
+    - blackjax
+    - cmocean
+    - jaxopt
+  - pre-commit
+  - pysal
+  - pyjanitor
+  - pymc
+  - pyprojroot
+  - python-dotenv
+  - python-graphviz
+  - scipy
+  - seaborn
+  - statsmodels
+  - typing-extensions
+  - xhistogram
+  - utm
